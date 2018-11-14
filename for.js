@@ -7,13 +7,19 @@ for(var i = -10; i <= 19; i++)
 console.log("==========2==========");
 for(var i = 10; i <= 40; i+=2)
 {
-    console.log(i);
+    if(i %2 === 0)
+    {
+        console.log(i);
+    }
 }
 
 console.log("==========3==========");
 for(var i = 301; i <= 333; i+=2)
 {
-    console.log(i);
+    if(i %2 !== 0)
+    {
+        console.log(i);
+    }
 }
 
 console.log("==========4==========");
