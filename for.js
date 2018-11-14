@@ -11,7 +11,7 @@ for(var i = 10; i <= 40; i+=2)
 }
 
 console.log("==========3==========");
-for(var i = 301; i <= 333; i+= 2)
+for(var i = 301; i <= 333; i+=2)
 {
     console.log(i);
 }
